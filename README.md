@@ -34,7 +34,7 @@ Hoje, objetos perdidos no campus dependem de avisos em grupos de mensagens e do 
 Requer Python 3.9+.
 
 ```bash
-git clone <URL-DO-REPOSITORIO>
+git clone https://github.com/MatheusRxzs/Projeto-Final-Engenharia-de-Software
 cd achados-perdidos-unima
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\\\\\\\\Scripts\\\\\\\\activate
