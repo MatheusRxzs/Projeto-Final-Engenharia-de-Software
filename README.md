@@ -31,21 +31,39 @@ Hoje, objetos perdidos no campus dependem de avisos em grupos de mensagens e do 
 
 ## Como executar
 
-Requer Python 3.9+.
+## Como executar
 
+### 1. Pré-requisitos
+- **Python 3.9 ou superior:** https://www.python.org/downloads/
+  Durante a instalação, **marque a caixa "Add python.exe to PATH"** antes de clicar em Install Now.
+- **Git** (opcional): https://git-scm.com/download/win
+  Sem o Git, clique em **Code → Download ZIP** neste repositório e extraia o arquivo.
+
+### 2. Baixar o projeto
 ```bash
-git clone https://github.com/MatheusRxzs/Projeto-Final-Engenharia-de-Software
-cd achados-perdidos-unima
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\\\\\\\\Scripts\\\\\\\\activate
+git clone https://github.com/MatheusRxzs/Projeto-Final-Engenharia-de-Software.git
+```
+
+### 3. Abrir o terminal dentro da pasta do projeto (Windows)
+Abra a pasta do projeto (a que contém o arquivo `app.py`), clique na barra de
+endereço do Explorador de Arquivos, apague o texto, digite `cmd` e aperte Enter.
+
+### 4. Instalar e executar
+```bash
+cd Projeto-Final-Engenharia-de-Software
 pip install -r requirements.txt
 python app.py
 ```
+Se aparecer "Acesso negado" na instalação, use: `python -m pip install --user -r requirements.txt`
 
-Abra http://localhost:5000. O banco é criado na primeira execução.
+### 5. Abrir o sistema
+Acesse http://localhost:5000 no navegador e **mantenha o terminal aberto**.
+O banco de dados é criado automaticamente na primeira execução.
 
-Para rodar os testes: `python tests/test\\\\\\\_api.py`
-
+### Executar os testes
+```bash
+python tests/test_api.py
+```
 ## Capturas de tela
 
 *Imagens do Projeto referenciadas no Relatorio Final*
