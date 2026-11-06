@@ -48,7 +48,7 @@ Para rodar os testes: `python tests/test\\\\\\\_api.py`
 
 ## Capturas de tela
 
-*Adicionar em `docs/img/` e referenciar aqui (tela inicial, cadastro de item, lista filtrada).*
+*Imagens do Projeto referenciadas no Relatorio Final*
 
 ## Gerenciamento do projeto
 
